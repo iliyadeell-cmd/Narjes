@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>برای نرجس قشنگم 💗🎀</title>
-
 <style>
 *{box-sizing:border-box}
 body{
@@ -33,7 +32,7 @@ button{
  color:white;font:16px Tahoma;cursor:pointer;margin-top:12px
 }
 #number{
- font-size:110px;font-weight:bold;color:#fa72ab;
+ font-size:100px;font-weight:bold;color:#fa72ab;
  text-shadow:0 5px 20px #ffb6d4
 }
 .letter{
@@ -74,26 +73,22 @@ button{
  <p>
  چشای قشنگتو ببند، عزیز دلم! 🙈💕
  <br>
- فقط ۵ ثانیه دیگه صبر کن...
+ فقط ۱۰ ثانیه دیگه صبر کن...
  <br>
  آماده باش تا سورپرایز شی! 🎁
  </p>
- <div id="number">۵</div>
+ <div id="number">۱۰</div>
  <p>چشاتو نبازیاااا! 🙈🌸</p>
 </section>
 
 <section class="card hidden" id="final">
  <div class="final">
   <div style="font-size:48px">🎉💗🌸🎀💗</div>
-
   <h1>روز دختر مبارک، نرجس قشنگم! 💖</h1>
-
-  <p style="font-size:19px">
-   قربون اون قلب مهربونت برمممم! 🥹🫶🏻
-  </p>
+  <p style="font-size:19px">قربون اون قلب مهربونت برمممم! 🥹🫶🏻</p>
 
   <div class="letter">
-   روز دختر رو به خوشگل‌ترین و مهربون‌ترین دختری که تو زندگیم دیدم تبریک می‌گمممم! 🎀💗
+   روز دختر رو به خوشکل‌ترین و مهربون‌ترین دختری که تو زندگیم دیدم تبریک میگم! 🎀💗
 
    <br><br>
 
@@ -126,7 +121,6 @@ button{
    با کلی عشق و یه دنیا قلب صورتی 💗<br>
    ایلیا ❤️
   </div>
-
   <p>🎀 تو خیلی دوست‌داشتنی‌ای، نرجس جان! 🎀</p>
  </div>
 </section>
@@ -141,7 +135,7 @@ function begin(){
  document.getElementById('start').classList.add('hidden');
  document.getElementById('count').classList.remove('hidden');
 
- const nums=['۵','۴','۳','۲','۱'];
+ const nums=['۱۰','۹','۸','۷','۶','۵','۴','۳','۲','۱'];
  let i=0;
  const el=document.getElementById('number');
 
@@ -157,7 +151,7 @@ function begin(){
    {duration:800}
   );
 
-  if(i<4){
+  if(i<nums.length-1){
    i++;
    setTimeout(tick,1000);
   }else{
